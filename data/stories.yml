@@ -1,0 +1,28 @@
+version: "2.0"
+
+stories:
+
+- story: likes pizza
+  steps:
+  - intent: affirm
+  - action: utter_can_ask_questions
+  - intent: affirm
+  - action: utter_pizza
+  - intent: affirm
+  - action: utter_thanks
+
+- story: doesn't like pizza
+  steps:
+  - intent: affirm
+  - action: utter_can_ask_questions
+  - intent: affirm
+  - action: utter_pizza
+  - intent: deny
+  - action: utter_thanks
+
+- story: doesn't want to reply
+  steps:
+  - intent: affirm
+  - action: utter_can_ask_questions
+  - intent: deny
+  - action: utter_thanks
