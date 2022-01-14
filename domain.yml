@@ -11,13 +11,13 @@ intents:
 
 responses:
   utter_can_ask_questions:
-  - text: "Hey! Can I ask some questions"
+  - text: "Hey!-Can-I-ask-some-questions.mp3"
 
   utter_pizza:
-  - text: "Did you like the pizza"
+  - text: "Did-you-like-the-pizza.mp3"
 
   utter_thanks:
-  - text: "Ok thanks! That's all"
+  - text: "Ok-thanks!-That_s-all.mp3"
 
   utter_greet:
   - text: "Hey! How are you?"
